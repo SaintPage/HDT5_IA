@@ -11,10 +11,7 @@ calendarizar la cita.
 | `jerarquica.py` | Director → 2 gerencias → 4 especialistas | `as_tool()` anidado |
 | `descentralizada.py` | Red de 5 agentes pares | `handoffs` |
 
-Diagramas en [`diagramas/`](diagramas) · Respuestas a las preguntas en
-[`docs/respuestas.pdf`](docs/respuestas.pdf).
-
----
+Diagramas en [`diagramas/`](diagramas) · 
 
 ## Instalación
 
@@ -23,7 +20,7 @@ python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-cp .env.example .env             # y coloca tu llave
+cp .env.example .env             # se coloca la llave de los laboratorios anteriores
 ```
 
 `.env`:
@@ -68,7 +65,6 @@ Usuario > ¿Y si mejor lo hago dentro de dos meses?      -> corrige: máximo 16 
 │   └── runner.py            # bucle de consola compartido
 ├── data/faqs.md             # base de conocimiento
 ├── diagramas/               # SVG de las tres arquitecturas
-└── docs/respuestas.pdf      # respuestas a las preguntas
 ```
 
 ## La abstracción
